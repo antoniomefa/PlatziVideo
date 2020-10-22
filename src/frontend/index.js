@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';
 import App from './routes/App';
 import reducer from './reducers';
-import { initialState } from '../initialState.json';
+import initialState from './initialState';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
