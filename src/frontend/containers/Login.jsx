@@ -48,7 +48,7 @@ const Login = (props) => {
             />
             <button type='submit' className='button'>Iniciar sesión</button>
             <div className='login__container--remember-me'>
-              <label>
+              <label htmlFor='cbox1'>
                 <input type='checkbox' name='' id='cbox1' value='checkbox' />
                 {' '}
                 Recuérdame
